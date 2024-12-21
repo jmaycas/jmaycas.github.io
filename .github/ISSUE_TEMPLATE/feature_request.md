@@ -2,7 +2,11 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
+<<<<<<< HEAD
 labels: ''
+=======
+labels: enhancement
+>>>>>>> ae9eae5e0456caa85ba46d5eb58ad14ab7262a76
 assignees: ''
 
 ---

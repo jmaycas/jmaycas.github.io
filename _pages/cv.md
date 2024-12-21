@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -62,3 +63,13 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+=======
+layout: cv
+permalink: /cv/
+title: CV
+nav: true
+nav_order: 3
+cv_pdf: CVOlatzRoman.pdf
+---
+
+>>>>>>> ae9eae5e0456caa85ba46d5eb58ad14ab7262a76
