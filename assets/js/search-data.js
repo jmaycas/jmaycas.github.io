@@ -184,11 +184,11 @@ ninja.data = [{
           window.location.href = "/blog/2023/post-bibliography/";
         
       },
-    },{id: "post-a-post-with-jupyter-notebook",
+    },{id: "post-jupyter-notebook",
       
-        title: "a post with jupyter notebook",
+        title: "Jupyter Notebook",
       
-      description: "an example of a blog post with jupyter notebook",
+      description: "",
       section: "Posts",
       handler: () => {
         
