@@ -48,5 +48,9 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
     <img src="{{ '/assets/img/10.jpg' | relative_url }}" alt="Foto 7">
     <p>At R's</p>
   </div>
+  <div class="photo-item">
+    <img src="{{ '/assets/img/11.jpg' | relative_url }}" alt="Foto 7">
+    <p>At Carrión</p>
+  </div>
 </div>
 
