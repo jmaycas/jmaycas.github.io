@@ -18,14 +18,16 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Created in {{ page.date | date: '%B %d, %Y' }}
+      Created on {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}
-      {% if page.last_updated %}, last updated in {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
+      {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">
       {% if url_beginning == '/blog/' %}
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}">
+          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
+        </a>
       {% else %}
         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
       {% endif %}
@@ -33,14 +35,15 @@ layout: default
         &nbsp; &middot; &nbsp;
         {% for tag in page.tags %}
           {% if url_beginning == '/blog/' %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
+            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
+              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+            </a>
           {% else %}
             <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
           {% endif %}
           {% unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}
       {% endif %}
-
       {% if categories != '' %}
         &nbsp; &middot; &nbsp;
         {% for category in page.categories %}
@@ -58,6 +61,9 @@ layout: default
   </header>
 
   <article class="post-content">
+    {%- comment -%}
+      Tabla de contenidos generada por {% raw %}{% toc %}{% endraw %} removida porque no está soportada en GitHub Pages
+    {%- endcomment -%}
     <div id="markdown-content">
       {{ content }}
     </div>
@@ -70,7 +76,9 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% bibliography --group_by none --cited_in_order %}
+      {%- comment -%}
+        Bibliography generada por {% raw %}{% bibliography %}{% endraw %} removida porque no está soportada en GitHub Pages
+      {%- endcomment -%}
     </div>
   {% endif %}
 
