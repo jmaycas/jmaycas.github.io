@@ -217,12 +217,12 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  #- jekyll-jupyter-notebook
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -234,11 +234,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-toc
 
 # Sitemap settings
 defaults:
