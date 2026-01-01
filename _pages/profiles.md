@@ -60,5 +60,9 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
     <img src="{{ '/assets/img/14.jpeg' | relative_url }}" alt="Foto 7">
     <p>Vancouver, BC</p>
   </div>
+        <div class="photo-item">
+    <img src="{{ '/assets/img/15.JPG' | relative_url }}" alt="Foto 7">
+    <p>C chatting over a few beers</p>
+  </div>
 </div>
 
