@@ -11,10 +11,9 @@ profile:
   more_info: >
     <div class="about-info">
     <p>Office: 18.2.A.36</p>
-      <p>Department of Social Sciences</p>
+      <p>Social Sciences Department</p>
       <p>c/ Madrid, 135, 28903 Getafe (Madrid)</p>
     </div>
-
 
 #news: true # includes a list of news items
 #selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -31,4 +30,3 @@ Before starting my PhD, I earned an MS in Economics from the Universitat de Barc
 You can download my [CV](/assets/pdf/cv_maycas.pdf).
 
 You can also reach out [jmaycas@clio.uc3m.es](mailto:jmaycas@clio.uc3m.es)
-
