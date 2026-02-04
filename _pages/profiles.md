@@ -62,7 +62,7 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
   </div>
         <div class="photo-item">
     <img src="{{ '/assets/img/15.JPG' | relative_url }}" alt="Foto 7">
-    <p>C chatting over a few beers</p>
+    <p>Charlie chatting over a few beers</p>
   </div>
 </div>
 
