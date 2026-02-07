@@ -22,7 +22,7 @@ nav_order: 3
       {% endfor %}
     {% endif %}
   </summary>
-  <p>{{ paper.abstract }}</p>
+  <p class="abstract">{{ paper.abstract }}</p>
 
   {% if paper.link %}
     <p><a href="{{ paper.link }}" target="_blank">Download PDF</a></p>

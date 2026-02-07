@@ -94,3 +94,10 @@ a:hover, a:focus {
   font-size: 14px;
   color: #333; /* Color de texto */
 }
+
+/* Abstracts de working papers */
+.abstract {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
