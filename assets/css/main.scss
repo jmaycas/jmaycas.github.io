@@ -28,7 +28,11 @@ $max-content-width: {{ site.max_width }};
 .about-info {
   font-size: 12px;
   line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
+
 
 a {
   color: rgb(70, 130, 180) !important; // Azul 'seaBlue'
