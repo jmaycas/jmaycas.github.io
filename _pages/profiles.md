@@ -64,5 +64,9 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
     <img src="{{ '/assets/img/15.JPG' | relative_url }}" alt="Foto 7">
     <p>Charlie chatting over a few beers</p>
   </div>
+          <div class="photo-item">
+    <img src="{{ '/assets/img/16.jpeg' | relative_url }}" alt="Foto 7">
+    <p>A drawing by Andy of me washing the dishes in Florence</p>
+  </div>
 </div>
 
