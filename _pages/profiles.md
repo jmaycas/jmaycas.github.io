@@ -57,15 +57,23 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
     <p>With R and C</p>
   </div>
       <div class="photo-item">
-    <img src="{{ '/assets/img/14.jpeg' | relative_url }}" alt="Foto 7">
-    <p>Vancouver, BC</p>
+    <img src="{{ '/assets/img/13.jpeg' | relative_url }}" alt="Foto 7">
+    <p>Camino de Santiago crew </p>
   </div>
         <div class="photo-item">
-    <img src="{{ '/assets/img/15.JPG' | relative_url }}" alt="Foto 7">
-    <p>Charlie chatting over a few beers</p>
+    <img src="{{ '/assets/img/14.JPG' | relative_url }}" alt="Foto 7">
+    <p>Charli chatting over a few beers</p>
   </div>
           <div class="photo-item">
     <img src="{{ '/assets/img/16.jpeg' | relative_url }}" alt="Foto 7">
+    <p>The time we wanted to start a book club</p>
+  </div>
+          <div class="photo-item">
+    <img src="{{ '/assets/img/17.JPG' | relative_url }}" alt="Foto 7">
+    <p>Vancouver, BC</p>
+  </div>
+          <div class="photo-item">
+    <img src="{{ '/assets/img/18.JPG' | relative_url }}" alt="Foto 7">
     <p>A drawing by Andy of me washing the dishes in Florence</p>
   </div>
 </div>
