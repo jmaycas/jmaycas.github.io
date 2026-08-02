@@ -6,7 +6,7 @@ subtitle: Postdoctoral researcher at the <a href='https://www.uc3m.es/home'>Univ
 
 profile:
   align: right
-  image: prof_pic2.jpeg
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="about-info">
