@@ -7,44 +7,89 @@ nav: true
 nav_order: 3
 ---
 
+<style>
+  .paper-details {
+    margin: 0.75rem 0 1.25rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 1rem;
+  }
+  .paper-details summary {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0.25rem 0;
+    list-style: none;
+  }
+  .paper-details summary::-webkit-details-marker { display: none; }
+  .paper-details summary::before {
+    content: "▸ ";
+    color: var(--global-theme-color);
+    display: inline-block;
+    margin-right: 0.35rem;
+    transition: transform 0.15s ease;
+  }
+  .paper-details[open] summary::before { content: "▾ "; }
+  .paper-details .abstract-label {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem 0;
+  }
+  .paper-details .available-request {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0 0 0.5rem 0;
+  }
+  .paper-details .abstract-text {
+    text-align: justify;
+    margin: 0.25rem 0 0.5rem 0;
+  }
+  .paper-details .presented-at {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+  .paper-details .paper-links { margin-top: 0.5rem; font-size: 0.9rem; }
+</style>
+
 ## Working papers
 
 ---
 
 {% for paper in site.data.research %}
-<details>
+<details class="paper-details">
   <summary>
-    <strong>{{ paper.title }}</strong>
-    {% if paper.authors %}
-      with 
-      {% for author in paper.authors %}
-        <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}
-      {% endfor %}
+    {{ paper.title }}{% if paper.authors %}, with 
+      {% for author in paper.authors %}<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
     {% endif %}
   </summary>
-  <p class="abstract">{{ paper.abstract }}</p>
 
-  {% if paper.link %}
-    <p><a href="{{ paper.link }}" target="_blank">Download PDF</a></p>
+  <p class="abstract-label">Abstract</p>
+
+  {% if paper.available_upon_request %}
+    <p class="available-request">[Available upon request]</p>
   {% endif %}
 
-  {% if paper.pdf %}
-    <p><a href="{{ paper.pdf }}" target="_blank">Download PDF</a></p>
+  {% if paper.abstract %}
+    <p class="abstract-text">{{ paper.abstract }}</p>
+  {% endif %}
+
+  {% if paper.presented %}
+    <p class="presented-at"><em>Presented at:</em> {{ paper.presented }}</p>
+  {% endif %}
+
+  {% if paper.link or paper.pdf %}
+    <p class="paper-links">
+      {% if paper.link %}<a href="{{ paper.link }}" target="_blank">Download PDF</a>{% endif %}
+      {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">Download PDF</a>{% endif %}
+    </p>
   {% endif %}
 </details>
----
 {% endfor %}
 
 ## Work in Progress
 
 {% for project in site.data.work_in_progress %}
-- **{{ project.title }}**{% if project.authors %} with {% for author in project.authors %}<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}. <em>{{ project.description }}</em>
+- **{{ project.title }}**{% if project.authors %}, with {% for author in project.authors %}<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% if project.description and project.description != "" %}. <em>{{ project.description }}</em>{% endif %}
 {% endfor %}
-
-
-
-
-
-
-
-

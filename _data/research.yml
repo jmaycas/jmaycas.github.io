@@ -1,6 +1,7 @@
 - title: "Is That the Way? Tourism-Driven Social Change and the Decline of Local Participation"
-  abstract: "[AVAILABLE UPON REQUEST] Tourism is generally praised for revitalizing local economies, yet it can also carry subtle political costs. In this article, I argue that contexts of persistent mobility, where social encounters are frequent but ephemeral, weaken the incentives to invest and to enforce local participation. I examine the case of the Way of Saint James (Camino de Santiago) in Spain, where a tourist boom transformed social life in small urban and rural communities. Using a difference-in-differences strategy, I show that tourist exposure reduced association density by roughly 25 percent of the sample mean and local turnout by more than 2 percentage points. Communities that host pilgrims face a contextual and compositional shock. First, hostels tend to be located near town halls, disrupting existing social routines at these fixed places. Second, hostels attract younger, mobile residents who join the community and have less engagement in local affairs. Both effects changed the norms that enforce local participation. "
-  pdf: "/assets/papers/jms_manuscript.pdf"
+  available_upon_request: true
+  abstract: "Tourism is generally praised for revitalizing local economies, yet it can also carry subtle political costs. In this article, I argue that contexts of persistent mobility, where social encounters are frequent but ephemeral, weaken the incentives to invest and to enforce local participation. I examine the case of the Way of Saint James (Camino de Santiago) in Spain, where a tourist boom transformed social life in small urban and rural communities. Using a difference-in-differences strategy, I show that tourist exposure reduced association density by roughly 25 percent of the sample mean and local turnout by more than 2 percentage points. Communities that host pilgrims face a contextual and compositional shock. First, hostels tend to be located near town halls, disrupting existing social routines at these fixed places. Second, hostels attract younger, mobile residents who join the community and have less engagement in local affairs. Both effects changed the norms that enforce local participation."
+  # presented: "EPSA (2025); ECPR (2024)"   # <- fill in when ready
 
 - title: "Bordering on Discontent: The Political Consequences of Border Liberalization"
   authors:
@@ -8,10 +9,15 @@
       url: "https://sites.google.com/view/j-serrano-serrat/about-me?authuser=0"
   abstract: "In the aftermath of globalization, Western democracies have seen rising political disaffection and growing support for radical-right parties. Research has examined the consequences of immigration extensively, but the effects of policies that merely ease cross-border mobility remain underexplored. Drawing on political geography and social psychology, we argue that greater border permeability can generate political discontent even without heightened immigration or meaningful economic change. How that discontent is electorally expressed depends on political supply. Absent a radical-right party, it manifests as disengagement –– lower turnout and declining mainstream support. When such a party is present, it can be mobilized electorally. We study the German--Czech border, exploiting the Czech Republic's 2004 EU accession, which eased mobility without granting settlement rights, and the AfD's programmatic shift in 2015. Using difference-in-differences and event-study designs on German electoral data, we find demobilization as the primary response, with radical-right mobilization emerging only later."
   link: "https://osf.io/preprints/socarxiv/t6fhm_v2"
+  # presented: ""
 
-- title: "Economic Voting as Political Socialization: The Lasting Imprint of First Elections"
-  abstract: "[AVAILABLE UPON REQUEST] "
-  pdf: "/assets/papers/jms_manuscript2.pdf"
+- title: "Cultural Transmission under Electoral Polarization"
+  authors:
+    - name: "Andreu Arenas"
+      url: "https://sites.google.com/site/andreuarenasweb/home?authuser=0"
+  available_upon_request: true
+  abstract: "Why do some political cleavages endure across generations while others fade? Classical theory points to party mobilization, but parties reach the next generation only through the family, where political identities are first formed. We argue that electoral polarization along an identity cleavage provides that reach: when the cleavage is contested, parents invest more in transmission and rely less on the community. We test the argument in Navarre, Spain, where party competition is organized around Basque–Spanish identity. Using administrative records for the universe of births between 2011 and 2024, we measure identity transmission through the names parents give their children. Within municipalities, rising polarization steepens the parent–child gradient in cultural identity, weakens the influence of the local environment, and dissolves the complementarity between the two channels. A shift-share instrument confirms the pattern. Democratic contestation, not only coercion, can deepen identity divides across generations by reshaping where socialization happens."
+  # presented: ""
 
 - title: "Bank Branch Closures and Evictions in the US"
   authors:
@@ -20,4 +26,5 @@
     - name: "Xavier Fageda"
       url: "https://webgrec.ub.edu/webpages/000005/cat/xfageda.ub.edu.html"
   abstract: "More than two million evictions occur in the US each year, a phenomenon with profound and lasting consequences for affected families and communities. This paper examines how the closure of brick-and-mortar bank branches in the US has influenced the number of households threatened with evictions over the period 2000-2018. To overcome the potential endogeneity associated to branch closures, we adopt an instrumental variable (IV) strategy that uses bank mergers as an instrument for the distance between the population and the nearest bank branch at the census tract level. Our results show that both interstate and intercounty mergers increased the distance to the nearest bank branche. Moreover, we find that a 1 percent increase in this distance led to an increase of between 0.9 and 2.3 percent in the number of households threatened with an eviction in urban tracts. We present several robustness checks that support our results, including a matching procedure that controls for pre-existing differences between tracts exposed and unexposed to mergers. In addition, we re-estimate the model focusing on mergers in which the acquiring and the acquired banks had overlapping branches, and we consider alternative measures for financial exclusion and exposure to evictions."
-  link: "/assets/papers/jms_manuscript_bankbranch.pdf"
+  link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5000428"
+  # presented: ""
