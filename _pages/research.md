@@ -24,26 +24,24 @@ nav_order: 3
   .paper-details summary::-webkit-details-marker { display: none; }
   .paper-details summary::before {
     content: "▸ ";
-    color: var(--global-theme-color);
+    color: #4682B4;
     display: inline-block;
     margin-right: 0.35rem;
     transition: transform 0.15s ease;
   }
-  .paper-details[open] summary::before { content: "▾ "; }
-  .paper-details .abstract-label {
-    color: var(--global-theme-color);
-    font-weight: 600;
-    margin: 0.75rem 0 0.25rem 0;
+  .paper-details[open] summary::before {
+    content: "▾ ";
+    color: #4682B4;
   }
   .paper-details .available-request {
     color: var(--global-text-color-light);
     font-size: 0.85rem;
     font-style: italic;
-    margin: 0 0 0.5rem 0;
+    margin: 0.75rem 0 0.5rem 0;
   }
   .paper-details .abstract-text {
     text-align: justify;
-    margin: 0.25rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
   }
   .paper-details .presented-at {
     color: var(--global-text-color-light);
@@ -64,8 +62,6 @@ nav_order: 3
       {% for author in paper.authors %}<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
     {% endif %}
   </summary>
-
-  <p class="abstract-label">Abstract</p>
 
   {% if paper.available_upon_request %}
     <p class="available-request">[Available upon request]</p>
