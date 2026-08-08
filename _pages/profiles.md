@@ -5,7 +5,7 @@ title: Some other stuff
 nav: true
 nav_order: 7
 ---
-Some pictures I have taken over the years sum up my passions, experiences, and whereabouts.
+Some pictures I have taken over the years…
 
 <div class="photo-gallery">
   <div class="photo-item">
@@ -74,7 +74,7 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
   </div>
           <div class="photo-item">
     <img src="{{ '/assets/img/18.jpeg' | relative_url }}" alt="Foto 7">
-    <p>A drawing by Andy of me washing the dishes in Florence</p>
+    <p>A drawing by Andy of me washing the dishes</p>
   </div>
 </div>
 
