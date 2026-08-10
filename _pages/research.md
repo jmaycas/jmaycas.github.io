@@ -48,7 +48,11 @@ nav_order: 3
     font-size: 0.85rem;
     margin-top: 0.5rem;
   }
-  .paper-details .paper-links { margin-top: 0.5rem; font-size: 0.9rem; }
+  .paper-details .paper-links {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0.75rem 0 0.5rem 0;
+  }
 </style>
 
 ## Working papers
@@ -67,19 +71,19 @@ nav_order: 3
     <p class="available-request">[Available upon request]</p>
   {% endif %}
 
+  {% if paper.link or paper.pdf %}
+    <p class="paper-links">
+      {% if paper.link %}<a href="{{ paper.link }}" target="_blank">Download PDF</a>{% endif %}
+      {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">Download PDF</a>{% endif %}
+    </p>
+  {% endif %}
+
   {% if paper.abstract %}
     <p class="abstract-text">{{ paper.abstract }}</p>
   {% endif %}
 
   {% if paper.presented %}
     <p class="presented-at"><em>Presented at:</em> {{ paper.presented }}</p>
-  {% endif %}
-
-  {% if paper.link or paper.pdf %}
-    <p class="paper-links">
-      {% if paper.link %}<a href="{{ paper.link }}" target="_blank">Download PDF</a>{% endif %}
-      {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">Download PDF</a>{% endif %}
-    </p>
   {% endif %}
 </details>
 {% endfor %}
