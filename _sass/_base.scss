@@ -334,19 +334,16 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         i::before {
-          color: var(--global-theme-color);
+          color: #4682B4 !important;
         }
       }
     }
   }
 }
-
-.navbar-brand.social a:hover i::before {
-  color: #4682B4 !important;
-}
-
 
 .navbar-toggler {
   .icon-bar {
@@ -431,11 +428,13 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         text-decoration: none;
 
         i::before {
-          color: var(--global-theme-color);
+          color: #4682B4 !important;
         }
       }
     }
