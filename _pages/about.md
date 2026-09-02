@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral researcher at the <a href='https://www.uc3m.es/home'>Universidad Carlos III de Madrid</a>–UC3M
+subtitle: Maw Weber Fellow at the <a href='https://www.eui.eu/en/home'>European Univeristy Institute</a>–EUI
 
 profile:
   align: right
@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="about-info">
-    <p>Office: 18.2.A.36</p>
-      <p>Social Sciences Department</p>
-      <p>c/ Madrid, 135, 28903 Getafe (Madrid)</p>
+    <p></p>
+      <p></p>
+      <p></p>
     </div>
 
 #news: true # includes a list of news items
@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 ---
 Welcome to my website!
 
-I am a postdoc researcher in the <a href='https://www.uc3m.es/social-sciences-department/home'>Social Sciences Department</a> at the UC3M where I defended my disseration under the supervision of <a href='https://pedro-riera.com/'>Pedro Riera</a> in July 2026. I am also part of the HOMES research group funded by the Spanish Ministry of Science and Innovation and led by Pedro Riera (PI). At UC3M, I also co-founded the <a href='https://sites.google.com/view/paperss-seminarseries/home'>PAPERSS Seminar Series</a> – consider applying!
+I am a Max Weber Fellow in the <a href='https://www.eui.eu/en/academic-units/political-and-social-sciences' >Department of Political and Social Sciences</a> at the EUI. I defended my disseration under the supervision of <a href='https://pedro-riera.com/'>Pedro Riera</a> in July 2026 at <a href='https://www.uc3m.es/departamento-ciencias-sociales/inicio'>Universidad Carlos III de Madrid (UC3M)</a> . I am also part of the HOMES research group funded by the Spanish Ministry of Science and Innovation and led by Pedro Riera (PI). At UC3M, I also co-founded the <a href='https://sites.google.com/view/paperss-seminarseries/home'>PAPERSS Seminar Series</a> – consider applying!
 
 My research focuses on political behavior and culture, with a strong interest in how individuals learn politically consequential identities. In my dissertation, I studied how contextual change shapes social and individual learning: how families and communities transmit culture, and how formative experiences condition political identity. All these channels leave lasting marks on political preferences. I am also involved in different collaborative projects. Methodologically, I combine original datasets with quasi-experimental designs. 
 
