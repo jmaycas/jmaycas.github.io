@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Maw Weber Fellow at the <a href='https://www.eui.eu/en/home'>European Univeristy Institute</a>–EUI
+subtitle: Max Weber Fellow at the <a href='https://www.eui.eu/en/home'>European Univeristy Institute</a>–EUI
 
 profile:
   align: right
